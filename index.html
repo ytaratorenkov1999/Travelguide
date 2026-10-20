@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Путеводитель по городам России">
+    <meta name="theme-color" content="#265aa6">
+    <title>Путеводитель</title>
+
+    <!-- Preload критических ресурсов -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_dark.css">
+    <script src="js/app.js"></script>
+</head>
+<body class="mainPage">
+    <!-- Фиксированная панель управления -->
+    <header class="headerPanel">
+        <!-- Языковой переключатель -->
+        <div class="language-switcher">
+            <a href="index_ru.html" class="lang-link active" aria-label="Русский" data-lang="ru">РУ</a>
+            <span class="lang-separator">|</span>
+            <a href="index_en.html" class="lang-link" aria-label="English" data-lang="en">EN</a>
+            <span class="lang-separator">|</span>
+            <a href="index_zh.html" class="lang-link" aria-label="中文" data-lang="zh">中文</a>
+        </div>
+
+        <!-- Кнопка выхода -->
+        <a href="/" class="exitButton" aria-label="Вернуться на главную">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </a>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="mainBanner">
+        <div class="mainBanner__background" style="background-image: url('img/main_page/banner/main_banner.jpg')"></div>
+    </section>
+
+    <!-- Блок с описанием (тексты: js/main_page_data.js) -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro__container">
+                <h1 class="intro__title" data-text="introTitle"></h1>
+                <p class="intro__subtitle" data-text="introSubtitle"></p>
+                <p class="intro__text" data-text="introText"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ: ГОРОДА -->
+    <section class="contentSection contentSection--gray">
+        <div class="container">
+            <h2 class="contentSection__title" data-text="citiesTitle"></h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="cities" role="list">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ: РЕГИОНЫ -->
+    <section class="contentSection contentSection--white">
+        <div class="container">
+            <h2 class="contentSection__title" data-text="regionsTitle"></h2>
+            <div class="carousel">
+                <div class="carousel__wrapper">
+                    <div class="carousel__track" data-category="regions" role="list">
+                        <!-- Карточки генерируются через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main_page_data.js"></script>
+</body>
+</html>
