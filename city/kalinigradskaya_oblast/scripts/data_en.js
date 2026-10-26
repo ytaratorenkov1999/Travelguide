@@ -904,9 +904,7 @@ const en_Kaliningraskaya_oblastData = {
 <div class="modalBlock">
    <div class="modalBlock__text">
       <h2 class="modalBlock__title">Amber Road: Sunstone, Ancient Routes, and Cultural Code of the Baltic</h2>
-      <p class="modalBlock__description">
-         Amber is not just a mineral.
-      </p>
+
       <p class="modalBlock__description">
          It is a symbol of the Baltic, its light, memory, and energy.
       </p>

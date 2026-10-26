@@ -904,9 +904,7 @@ const Kaliningraskaya_oblastData = {
 <div class="modalBlock">
    <div class="modalBlock__text">
       <h2 class="modalBlock__title">Янтарный путь — солнечный камень, древние маршруты и культурный код Балтики</h2>
-      <p class="modalBlock__description">
-         Янтарь — это не просто минерал.
-      </p>
+
       <p class="modalBlock__description">
          Это символ Балтики, ее свет, ее память, ее энергия.
       </p>

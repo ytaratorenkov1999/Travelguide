@@ -905,9 +905,6 @@ const zh_Kaliningraskaya_oblastData = {
    <div class="modalBlock__text">
       <h2 class="modalBlock__title">琥珀之路——太阳之石、古老商道与波罗的海的文化密码</h2>
       <p class="modalBlock__description">
-         琥珀，远非一种矿物那么简单。
-      </p>
-      <p class="modalBlock__description">
          它是波罗的海的象征——它的光芒、它的记忆、它的能量。
       </p>
       <p class="modalBlock__description">
