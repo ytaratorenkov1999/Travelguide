@@ -979,7 +979,7 @@ const en_Kaliningraskaya_oblastData = {
          <li class="modalBlock__listItem">legends and myths associated with the stone.</li>
       </ul>
       <p class="modalBlock__description">
-         This is a place where amber reveals itself as a cultural phenomenon, not just a mineral.
+         This is where amber reveals its rich cultural and historical significance.
       </p>
    </div>
    <div class="modalBlock__image">

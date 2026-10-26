@@ -978,7 +978,7 @@ const zh_Kaliningraskaya_oblastData = {
          <li class="modalBlock__listItem">与琥珀相关的传说与神话。</li>
       </ul>
       <p class="modalBlock__description">
-         在这里，琥珀展现的是一种文化现象，而非仅仅是一种矿物。
+         在这里，琥珀丰富的文化内涵与历史意义得以充分展现。
       </p>
    </div>
    <div class="modalBlock__image">

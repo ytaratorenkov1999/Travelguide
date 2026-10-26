@@ -979,7 +979,7 @@ const Kaliningraskaya_oblastData = {
          <li class="modalBlock__listItem">легенды и мифы, связанные с камнем.</li>
       </ul>
       <p class="modalBlock__description">
-         Это место, где янтарь раскрывается как культурный феномен, а не просто минерал.
+         Это место, где янтарь раскрывается во всём богатстве своего культурного и исторического значения.
       </p>
    </div>
    <div class="modalBlock__image">
