@@ -1,6 +1,6 @@
 const CONFIG = {
     // true — кнопка смены темы видна и тему можно менять; false — кнопки нет, сайт всегда светлый
-    themeSwitcher: true
+    themeSwitcher: false
 };
 
 const THEME_KEY = 'travelguide-theme';
